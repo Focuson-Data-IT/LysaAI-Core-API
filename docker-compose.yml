@@ -2,6 +2,7 @@ version: '3'
 services:
   lysaai-core-api:
     image: kevinirawand/lysaai-core-api:latest
+    container_name: lysaai-core-api
     restart: always
     ports:
       - "8080:8080"
