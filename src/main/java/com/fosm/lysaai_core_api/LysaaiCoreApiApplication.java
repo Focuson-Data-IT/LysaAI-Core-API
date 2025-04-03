@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class LysaaiCoreApiApplication {
 	@GetMapping("/hello")
 	public String hello() {
-		return "Hello World";
+		return "Hello Worlds";
 	}
 
 	public static void main(String[] args) {
